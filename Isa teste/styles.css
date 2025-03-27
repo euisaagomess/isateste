@@ -1,0 +1,33 @@
+/* Estilo geral da página */ 
+body {
+    font-family: Arial, sans-serif; /* fonte escolhida */
+    background-color: blue; /* cor de fundo */
+    text-align: center; /* alinhamento de texto */
+    padding: 20px;
+}
+
+/* estilo do container de texto */
+.text-container{
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto; /* centralizar o container */
+}
+/* estilo do titulo */
+h1{
+    color: black;
+}
+/* estilo do paragrafo  */
+p{
+    color: black; font-size: 18;
+}
+/* estilo do container da imagem */
+.image-container{
+    margin-top: 20px; /* espaço entre texto e a imagem */
+}
+.image-container img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
