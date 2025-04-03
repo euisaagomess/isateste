@@ -1,33 +1,102 @@
-/* Estilo geral da página */ 
-body {
-    font-family: Arial, sans-serif; /* fonte escolhida */
-    background-color: blue; /* cor de fundo */
-    text-align: center; /* alinhamento de texto */
-    padding: 20px;
+/* Reset e configuração Global */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* estilo do container de texto */
-.text-container{
-    background-color: blueviolet;
+/* Estilo geral da página */
+body {
+font-family: Arial, sans-serif; /* Fonte escolhida*/ 
+background-color: rgb(13, 9, 252); /* Cor de fundo */
+text-align: center; /*Alinhamento do texto */
+padding: 20px;
+color:chartreuse;
+line-height: 1.6;
+}
+
+header{
+    background-color: rgb(136, 205, 245);
+    color: white;
+    padding: 15px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color:rgb(41, 19, 240);
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
     padding: 20px;
-    border-radius: 8px;
-    max-width: 600px;
-    margin: 20px auto; /* centralizar o container */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(12, 3, 3, 0.1);
 }
-/* estilo do titulo */
+
+/* Estilo do container de texto */
+.text-container{
+background-color: rgb(66, 135, 190);
+padding: 20px;
+border-radius: 8px;
+max-width: 600px;
+margin: 20px auto;     
+}
+
+/* Estilo do título */
 h1{
-    color: black;
+    color: rgb(238, 231, 235);
 }
-/* estilo do paragrafo  */
+
+/* Estilo do parágrafo */
 p{
-    color: black; font-size: 18;
+    color: black;
+    font-size: 18px;
 }
-/* estilo do container da imagem */
+
+/* Estilo do container da imagem */
 .image-container{
-    margin-top: 20px; /* espaço entre texto e a imagem */
+    flex: 1;
+    padding: 20px;
+    text-align: center;
 }
+
 .image-container img{
     max-width: 100%;
-    height: auto;
+    height: auto; 
     border-radius: 10px;
+    box-shadow: 0 4px 8px black(0,0,0,0.1);
 }
+
+
+
+
